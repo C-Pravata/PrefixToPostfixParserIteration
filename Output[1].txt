@@ -1,0 +1,64 @@
+Processing file: Required_Input.txt
+-+ABC
+-A+BC
+$+-ABC+D-EF
+-*A$B+C-DE*EF
+**A+BC+C-BA
+/A+BC +C*BA  
+*-*-ABC+BA  
+/+/A-BC-BA  
+*$A+BC+C-BA 
+//A+B0-C+BA
+*$A^BC+C-BA					
+						
+				
+					
+					
+	
+
+
+AB+C-
+ABC+-
+AB-C+DEF-+$
+ABCDE-+$*EF*-
+ABC+*CBA-+*
+Error [5]: Invalid expression - spaces not allowed
+Error [6]: Not enough operands for operator: *
+Error [7]: Not enough operands for operator: /
+ABC+$CBA-+*
+AB0+/CBA+-/
+Error [10]: Invalid expression - ^ not defined as operator in program guidelines
+
+
+Processing file: Additional_Input.txt
++-+ABCD
+%BC4D
+^^ABCD
+++A*BCD
++*AB*CD
++++ABCD
+$$$
+++
++A*BC
+Chris
+2/01/23
+
+				
+						
+				
+					
+					
+	
+
+
+AB+C-D+
+Error [1]: Invalid expression
+Error [2]: Invalid expression - ^ not defined as operator in program guidelines
+ABC*+D+
+AB*CD*+
+AB+C+D+
+Error [6]: Not enough operands for operator: $
+Error [7]: Not enough operands for operator: +
+ABC*+
+Error [9]: Invalid expression
+Error [10]: Invalid expression
